@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.imooc</groupId>
+    <artifactId>imooc-hire-dev</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!--
+     1. jar (默认)
+     2. war (使用外部tomcat进行发布的时候
+     3. pom (针对root工程/父工程进行的使用，并且顶级pom可以管理所有jar依赖的坐标
+
+
+     -->
+    <packaging>pom</packaging>
+    <modules>
+        <module>hire-common</module>
+        <module>hire-pojo</module>
+        <module>hire-api</module>
+        <module>service-user-7001</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+<!--  -->
+
+</project>
