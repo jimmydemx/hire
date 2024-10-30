@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72c6638d-5516-498f-abb9-8a136ba2519e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hire-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hire-api/src/main/java/com/imooc/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hire-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hire-common/src/main/java/com/imooc/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hire-pojo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/imooc/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user-7001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user-7001/src/main/java/com/imooc/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-company-6001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +20,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2nqhnNGtuDpmpnM3fjTTXybNdlk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -51,7 +33,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "jbr-17",
+    "jdk.selected.JAVA_MODULE": "openjdk-22",
+    "last_opened_file_path": "/Users/jamesdemx/Desktop/Projects/hire",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,6 +42,21 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="hire-api" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="hire-api" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729706682148</updated>
       <workItem from="1729706683845" duration="4786000" />
+      <workItem from="1730226440930" duration="1845000" />
     </task>
     <servers />
   </component>
