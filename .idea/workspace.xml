@@ -9,24 +9,15 @@
     <option name="showLibraryBeans" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72c6638d-5516-498f-abb9-8a136ba2519e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-company-6001/src/main/java/com/imooc/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-company-6001/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user-7001/src/main/java/com/imooc/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user-7001/src/main/java/com/imooc/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user-7001/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user-7001/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user-7001/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user-7001/src/main/resources/banner/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="72c6638d-5516-498f-abb9-8a136ba2519e" name="Changes" comment="other changes">
+      <change afterPath="$PROJECT_DIR$/hire-common/src/main/java/com/imooc/grace/result/GraceJSONResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-common/src/main/java/com/imooc/grace/result/IMOOCJSONResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-common/src/main/java/com/imooc/grace/result/ResponseStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/imooc/pojo/Stu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hire-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hire-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-company-6001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-company-6001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-company-6001/src/main/java/com/imooc/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user-7001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user-7001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user-7001/src/main/java/com/imooc/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-company-6001/src/main/java/com/imooc/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-company-6001/src/main/java/com/imooc/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user-7001/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user-7001/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -136,8 +128,17 @@
       <updated>1729706682148</updated>
       <workItem from="1729706683845" duration="4786000" />
       <workItem from="1730226440930" duration="1845000" />
-      <workItem from="1730578815381" duration="14851000" />
+      <workItem from="1730578815381" duration="30831000" />
     </task>
+    <task id="LOCAL-00001" summary="other changes">
+      <option name="closed" value="true" />
+      <created>1731571150049</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731571150050</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,5 +154,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="other changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="other changes" />
   </component>
 </project>

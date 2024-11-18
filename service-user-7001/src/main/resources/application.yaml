@@ -10,3 +10,7 @@ spring:
   banner:
     image:
       location: classpath:banner/banner.txt
+
+
+logging:
+  level.root: info
