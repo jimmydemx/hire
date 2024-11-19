@@ -1,19 +1,24 @@
-package com.imooc.pojo;
+
+//	此资源由 58学课资源站 收集整理
+//	想要获取完整课件资料 请访问：58xueke.com
+//	百万资源 畅享学习
+package com.imooc.pojo.test;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-//使用了 lombok.Data就不需要直接写 set/get，
-// AllArgsConstructor 表示创建时候必须传入参数 
+import java.io.Serializable;
+
 @Data
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
 public class Stu {
-    private String name;
+
     private Integer id;
+    private String name;
     private Integer age;
 
 }
