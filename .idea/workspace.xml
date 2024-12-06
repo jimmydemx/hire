@@ -9,15 +9,8 @@
     <option name="showLibraryBeans" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72c6638d-5516-498f-abb9-8a136ba2519e" name="Changes" comment="other changes">
-      <change afterPath="$PROJECT_DIR$/hire-common/src/main/java/com/imooc/grace/result/GraceJSONResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hire-common/src/main/java/com/imooc/grace/result/IMOOCJSONResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hire-common/src/main/java/com/imooc/grace/result/ResponseStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/imooc/pojo/Stu.java" afterDir="false" />
+    <list default="true" id="72c6638d-5516-498f-abb9-8a136ba2519e" name="Changes" comment="feature(general): add pojo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hire-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hire-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-company-6001/src/main/java/com/imooc/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-company-6001/src/main/java/com/imooc/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user-7001/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user-7001/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +31,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2nqhnNGtuDpmpnM3fjTTXybNdlk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -68,6 +61,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -138,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1731571150050</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feature(general): add pojo">
+      <created>1732042461567</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732042461567</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +158,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="other changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="other changes" />
+    <MESSAGE value="feature(general): add pojo" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature(general): add pojo" />
   </component>
 </project>

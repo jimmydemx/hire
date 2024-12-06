@@ -8,6 +8,7 @@
     <artifactId>imooc-hire-dev</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+
     <!--
      1. jar (默认)
      2. war (使用外部tomcat进行发布的时候
@@ -28,12 +29,42 @@
         <module>hire-api</module>
         <module>service-user-7001</module>
         <module>service-company-6001</module>
+        <module>gateway-8000</module>
     </modules>
+
+    <dependencyManagement>
+        <dependencies>
+                <!--   引入微服务 spring-cloud, 注意版本的兼容性       -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring.cloud-version}</version>
+                <!-- pom indicates that this dependency is a POM file (not a library or executable). It is typically used for dependency management            -->
+                <type>pom</type>
+                <!-- import is used when the dependency is a BOM. This allows Maven to import dependency management configurations from the specified POM file.-->
+                <scope>import</scope>
+            </dependency>
+
+
+            <!--   引入微服务 spring-cloud-alibaba, 注意版本的兼容性       -->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2021.0.5.0</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+
+
+        </dependencies>
+    </dependencyManagement>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring.cloud-version>2021.0.5</spring.cloud-version>
     </properties>
 
     <parent>

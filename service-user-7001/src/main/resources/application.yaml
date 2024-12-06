@@ -1,16 +1,27 @@
-#server:
-#  port: 7001
-#  tomcat:
-#    uri-encoding: UTF-8
-#    max-swallow-size: -1
+server:
+  port: ${port:7001}
+  tomcat:
+    uri-encoding: UTF-8
+    max-swallow-size: -1
 
 spring:
-  profiles:
-    active: dev
+  application:
+    name: user-service
   banner:
     image:
       location: classpath:banner/banner.txt
 
 
 logging:
-  level.root: info
+  level:
+    root: info
+    com.alibaba.nacos: DEBUG
+
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*.xml
+  global-config:
+    db-config:
+      id-type: assign_id
+      banner: false
+
