@@ -15,4 +15,7 @@ spring:
           uri: lb://company-service  # lb load balance, 会动态寻址. 静态可以写成 http://192.168.1.111:7001
           predicates:  # 符合条件放行，可以模糊或者精确匹配
             - Path=/c/**
-
+        - id: authRoute # 每一项路由都有一个唯一的id编号，可以自定义
+          uri: lb://auth-center  # lb load balance, 会动态寻址. 静态可以写成 http://192.168.1.111:7001
+          predicates:  # 符合条件放行，可以模糊或者精确匹配
+            - Path=/auth/**
