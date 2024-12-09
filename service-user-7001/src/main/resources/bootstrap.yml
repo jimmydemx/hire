@@ -9,4 +9,10 @@ spring:
         group: dev
         prefix: user-service
         file-extension: yaml
+      config:
+        server-addr: localhost:8848
+        prefix: user-service
+        group: dev
+        file-extension: yaml
+        namespace: 9a439094-3ac4-4582-a653-24e77736b655
 
