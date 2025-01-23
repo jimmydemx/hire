@@ -1,5 +1,6 @@
 package com.imooc.filter;
 
+import com.github.pagehelper.util.StringUtil;
 import com.google.gson.Gson;
 import com.imooc.exceptions.GraceException;
 import com.imooc.grace.result.GraceJSONResult;
@@ -23,6 +24,7 @@ import reactor.core.publisher.Mono;
 
 import java.nio.charset.StandardCharsets;
 import java.util.List;
+import java.util.Objects;
 
 @Component
 @Slf4j
@@ -60,15 +62,31 @@ public class SecurityFilterJWT implements GlobalFilter, Ordered {
         HttpHeaders headers = exchange.getResponse().getHeaders();
         String userToken = headers.getFirst(HEADER_USER_TOKEN);
 
-        if(StringUtils.isEmpty(userToken)){
-            String[] tokenArr = userToken.split(jwtUtils.at);
+        if(StringUtil.isNotEmpty(userToken)){
+            String[] tokenArr = Objects.requireNonNull(userToken).split(com.imooc.utils.jwtUtils.at);
             if(tokenArr.length<2){
                 return renderErrorMsg(exchange,ResponseStatusEnum.UN_LOGIN);
             }
+            String prefix = tokenArr[0];
+            String jwt = tokenArr[1];
+
+            return handleJWT(exchange,jwt,chain);
         }
         // 获得jwt令牌与前缀
 
+
         return renderErrorMsg(exchange,ResponseStatusEnum.UN_LOGIN);
+    }
+
+    public Mono<Void> handleJWT(ServerWebExchange exchange, String jwt,GatewayFilterChain chain) {
+        try {
+            String userJson =  jwtUtils.checkJWT(jwt);
+            return chain.filter(exchange);
+        }catch (Exception e){
+            e.printStackTrace();
+            return renderErrorMsg(exchange,ResponseStatusEnum.JWT_EXPIRE_ERROR);
+        }
+
     }
 
     /**
